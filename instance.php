@@ -1,5 +1,6 @@
 <?php
-$this_instance_id=file_get_contents('http://54.174.201.22/latest/meta-data/instance-id');
+$this_instance_id=file_get_contents('http://172.31.59.77/latest/meta-data/instance-id');
+
 if(!empty($this_instance_id)){
     echo (string)($this_instance_id);
 }
